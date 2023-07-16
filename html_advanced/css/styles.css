@@ -58,7 +58,7 @@ header div
 main
 {
     border: 3px solid black;
-    height: 1350px;
+    height: 1240px;
     padding: 5px;
     margin-top: 10px;
 }
@@ -257,7 +257,7 @@ main #section-3
 {
     border: 2px solid black;
     padding: 5px;
-    height: 330px;
+    height: 300px;
     margin-top: 5px;
     display: flex;
     flex-direction: column;
@@ -306,10 +306,38 @@ main #section-3
 #section-3 div div div
 {
     border: 1px solid black;
-    height: 53%;
+    height: 26%;
     width: 96%;
     margin-top: 1px;
+    display: flex;
+    flex-direction: row;
 }
+
+#section-3 div div #singular span
+{
+    height: 98%;
+    width: 47%;
+}
+
+#section-3 div div #singular h4
+{
+    height: 98%;
+    width: 47%;
+}
+
+#section-3 div div #plural span
+{
+    height: 98%;
+    width: 54%;
+}
+
+#section-3 div div #plural p
+{
+    height: 75%;
+    width: 40%;
+}
+
+
 
 
 
@@ -362,7 +390,7 @@ main #section-5
 {
     border: 2px solid black;
     padding: 5px;
-    height: 330px;
+    height: 250px;
     margin-top: 5px;
     display: flex;
     flex-direction: column;
@@ -378,38 +406,124 @@ main #section-5
 #section-5 div
 {
     border: 1px solid black;
-    height: 300px;
+    height: 200px;
     width: 60%;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-#section-5 div 
-{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 50px);
-    grid-gap: 10px;
-    grid-template-areas: " one two"
-                         " three four"
-}
-
-#section-5 div:nth-child(1) { grid-area: one; }
-#section-5 div:nth-child(2) { grid-area: two; }
-#section-5 div:nth-child(3) { grid-area: three; }
-#section-5 div:nth-child(4) { grid-area: four; }
-
 
 #section-5 div div
 {
     border: 1px solid black;
-    height: 100px;
-    width: 135px;
-    margin-bottom: 2px;
-
+    width: 98%;
+    height: 43%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
+
+#section-5 div div div
+{
+    border: 1px solid black;
+    width:47% ;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+#section-5 div div div h4
+{
+    height: 46%;
+}
+
+#section-5 div div div p
+{
+    height: 46%;
+}
+
+
 
 footer
 {
     border: 3px solid black;
     margin-top: 10px;
-    height: 150px;
+    height: 80px;
+    padding: 5px;
+}
+
+footer div
+{
+    border: 2px solid black;
+    padding: 3px;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer div div
+{
+    border: 1px solid black;
+    height: 50%;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer div p
+{
+    border: 1px solid violet;
+    height: 38%;
+    width: 100px;
+}
+
+footer div div div
+{
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+footer div div #logo
+{
+    border: 1px solid black;
+    width: 100px;
+}
+
+footer div div #nav-images
+{
+    border: 1px solid black;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer div div #logo span
+{
+    border: 1px solid limegreen;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+footer div div #nav-images a
+{
+    border: 1px solid orangered;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div div #nav-images a span
+{
+    border: 1px solid limegreen;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
 }
