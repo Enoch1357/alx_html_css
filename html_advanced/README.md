@@ -8,6 +8,6 @@ CSS is also employed in this process; *external CSS* to be precise and then, the
 
 The _index.html_ file in this directory contains the html file for this project.
 
-The _styles.css_ file in the sub directory *css* contains the css files for this project.
+The _styles.css_ file in the sub directory *css* contains the css file for this project.
 
 Thank you.
