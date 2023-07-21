@@ -1,0 +1,592 @@
+body
+{
+    border: 5px solid black;
+    height: 520vh;
+    padding: 10px;
+}
+
+body div
+{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header
+{
+    border: 0;
+    height: 100px;
+    padding: 5px;
+}
+
+header div
+{
+    border: 0;
+    padding: 3px;
+    display: flex;
+    height: 90%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.company-logo
+{
+    border: 0;
+    width: 300px;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.company-logo a
+{
+    border: 0;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-links
+{
+    width: 250px;
+    height: 50%;
+    padding: 1px;
+}
+
+#nav-links a
+{
+    border: 0;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-links a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+main
+{
+    border: 3px solid black;
+    height: 2890px;
+    padding: 5px;
+}
+
+main #section-1
+{
+    border: 2px solid black;
+    padding: 5px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-1 #block-1a
+{
+    border: 1px solid black;
+    width: 20%;
+    padding: 2px;
+    height: 100px;
+}
+
+#section-1 #block-1a .Title
+{
+    border: 1px solid blue;
+    margin: 0;
+    height: 30px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-1 #block-1a p
+{
+    border: 1px solid violet;
+    margin: 0;
+    height: 30px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-1 #block-1a button
+{
+    border: 1px solid yellow;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99.5%;
+}
+
+#section-1 #block-1b
+{
+    border: 1px solid black;
+    width: 80%;
+    height: 150px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-1 #block-1b h2
+{
+    width: 100px;
+}
+
+#section-1 #block-1b div
+{
+    border:1px solid black;
+    height: 109px;
+    width: 98%;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#section-1 #block-1b div div
+{
+    border: 1px solid black;
+    height: 100px;
+    width: 20%;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#section-1 #block-1b div div .Image
+{
+    border: 1px solid limegreen;
+    width: 99%;
+    height: 30%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-1 #block-1b div div .Name
+{
+    border: 1px solid blue;
+    width: 99%px;
+    height: 30%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-1 #block-1b div div .Subtitle
+{
+    border: 1px solid violet;
+    width: 99%;
+    height: 30%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+main #section-2
+{
+    border: 2px solid black;
+    padding: 5px;
+    height: 300px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(194, 113, 255, 1);
+}
+
+#section-2 div
+{
+    border: 0;
+    width: 50%;
+    height: 60%;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-2 div image
+{
+    border: 0;
+    width: 45%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-2 div div
+{
+    border: 0;
+    height: 96%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section-2 div div q
+{
+    border: 0;
+    margin: 0;
+    width: 99%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#section-2 div div h2
+{
+    border: 0;
+    margin: 0;
+    width: 99%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+}
+
+#section-2 div div p
+{
+    border: 0;
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+
+
+main #section-3
+{
+    border: 2px solid black;
+    padding: 5px;
+    height: 600px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#section-3 h2
+{
+    border: 0;
+    width: 30%;
+    background-color: white;
+}
+
+#section-3 div
+{
+    border: 0;
+    height: 60%;
+    padding: 2px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#section-3 div div
+{
+    border: 0;
+    height: 98%;
+    width: 22%;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-3 div div span
+{
+    margin-bottom: 1px;
+    height: 80%;
+}
+
+#section-3 div div h4
+{
+    border: 0;
+    margin-bottom: 1px;
+}
+
+#section-3 div div p
+{
+    border: 0;
+}
+
+#section-3 div div div
+{
+    border: 0;
+    height: 26%;
+    width: 96%;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+#section-3 div div #singular
+{
+    display: flex;
+    justify-content: left;
+}
+
+#section-3 div div #singular span
+{
+    border: 0;
+    height: 98%;
+    width: 30%;
+}
+
+#section-3 div div #singular h4
+{
+    border: 0;
+    height: 98%;
+    width: 47%;
+    color: rgba(194, 113, 255, 1);
+}
+
+#section-3 div div #plural span
+{
+    border: 0;
+    height: 98%;
+    width: 60%;
+}
+
+#section-3 div div #plural p
+{
+    border: 0;
+    height: 75%;
+    width: 40%;
+    color: rgba(194, 113, 255, 1);
+}
+
+
+
+
+
+main #section-4
+{
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-4 h2
+{
+    width: 100px;
+}
+
+#section-4 div
+{
+    border:1px solid black;
+    height: 109px;
+    width: 98%;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#section-4 button
+{
+    width: 100px;
+}
+
+#section-4 div div
+{
+    border: 1px solid black;
+    height: 100px;
+    width: 20%;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+main #section-5
+{
+    border: 2px solid black;
+    padding: 5px;
+    height: 700px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#section-5 h2
+{
+    border: 0;
+    width: 30%;
+    font-size: xx-large;
+}
+
+#section-5 div
+{
+    border: 0;
+    height: 80%;
+    width: 60%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#section-5 div div
+{
+    border: 0;
+    width: 98%;
+    height: 43%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#section-5 div div div
+{
+    border: 0;
+    width:47% ;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+#section-5 div div div h4
+{
+    border: 0;
+    height: 10%;
+    font-size: x-large;
+}
+
+#section-5 div div div p
+{
+    border: 0;
+    height: 85%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+footer
+{
+    border: 0;
+    margin-top: 10px;
+    height: 150px;
+    padding: 5px;
+    background-color: rgba(7, 22, 41, 1);
+}
+
+footer div
+{
+    border: 0;
+    padding: 3px;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div div
+{
+    border: 0;
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer div p
+{
+    border: 0;
+    height: 30%;
+    margin: 0;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(109, 109, 109);
+    font-size: small;
+}
+
+footer div div div
+{
+    border: 0;
+    justify-content: space-between;
+}
+
+footer div div #logo
+{
+    border: 0;
+    width: 100px;
+}
+
+footer div div #nav-images
+{
+    border: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer div div #logo image
+{
+    border: 0;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+footer div div #nav-images a
+{
+    border: 0;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div div #nav-images a span
+{
+    border: 0;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
