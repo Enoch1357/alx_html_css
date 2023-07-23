@@ -1,8 +1,7 @@
 body
 {
-    border: 5px solid black;
-    height: 520vh;
-    padding: 10px;
+    border: 0;
+    height: 482vh;
 }
 
 body div
@@ -73,67 +72,77 @@ header div
 
 main
 {
-    border: 3px solid black;
+    border: 0;
     height: 2890px;
-    padding: 5px;
 }
 
 main #section-1
 {
-    border: 2px solid black;
+    border: 0;
     padding: 5px;
     height: 700px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 #section-1 #block-1a
 {
-    border: 1px solid black;
-    width: 20%;
+    border: 0;
+    width: 60%;
     padding: 2px;
-    height: 100px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #section-1 #block-1a .Title
 {
-    border: 1px solid blue;
+    border: 0;
     margin: 0;
-    height: 30px;
+    height: 50%;
     margin-bottom: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    font-size: 800%;
 }
 
 #section-1 #block-1a p
 {
-    border: 1px solid violet;
+    border: 0;
     margin: 0;
+    width: 40%;
     height: 30px;
     margin-bottom: 3px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    color: white;
 }
 
 #section-1 #block-1a button
 {
-    border: 1px solid yellow;
-    height: 30px;
+    border: 0;
+    border-radius: 30px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 99.5%;
+    width: 20%;
+    color: white;
+    background-color: rgba(194, 113, 255, 1);
 }
 
 #section-1 #block-1b
 {
-    border: 1px solid black;
+    border: 0;
     width: 80%;
-    height: 150px;
+    height: 40%;
     padding: 4px;
     display: flex;
     flex-direction: column;
@@ -143,14 +152,16 @@ main #section-1
 
 #section-1 #block-1b h2
 {
-    width: 100px;
+    border: 0;
+    width: 30%;
+    color: white;
 }
 
 #section-1 #block-1b div
 {
-    border:1px solid black;
-    height: 109px;
-    width: 98%;
+    border: 0;
+    height: 80%;
+    width: 80%;
     padding: 2px;
     display: flex;
     flex-direction: row;
@@ -159,8 +170,8 @@ main #section-1
 
 #section-1 #block-1b div div
 {
-    border: 1px solid black;
-    height: 100px;
+    border: 0;
+    height: 98%;
     width: 20%;
     padding: 2px;
     display: flex;
@@ -170,10 +181,11 @@ main #section-1
 
 #section-1 #block-1b div div .Image
 {
-    border: 1px solid limegreen;
+    border: 0;
     width: 99%;
-    height: 30%;
+    height: 65%;
     margin: 0;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,34 +193,35 @@ main #section-1
 
 #section-1 #block-1b div div .Name
 {
-    border: 1px solid blue;
+    border: 0;
     width: 99%px;
-    height: 30%;
+    height: 10%;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 #section-1 #block-1b div div .Subtitle
 {
-    border: 1px solid violet;
+    border: 0;
     width: 99%;
-    height: 30%;
+    height: 20%;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 
 
 main #section-2
 {
-    border: 2px solid black;
+    border: 0;
     padding: 5px;
     height: 300px;
-    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -282,10 +295,9 @@ main #section-2
 
 main #section-3
 {
-    border: 2px solid black;
+    border: 0;
     padding: 5px;
     height: 600px;
-    margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -322,7 +334,7 @@ main #section-3
     align-items: center;
 }
 
-#section-3 div div span
+#section-3 div div image
 {
     margin-bottom: 1px;
     height: 80%;
@@ -391,41 +403,65 @@ main #section-3
 
 main #section-4
 {
-    border: 2px solid black;
+    border: 0;
     padding: 5px;
-    margin-top: 5px;
     height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background-color: rgba(7, 22, 41, 1);
 }
 
 #section-4 h2
 {
-    width: 100px;
+    width: 30%;
+    color: white;
+    font-size: x-large;
+    margin-bottom: 15px;
+    border: 0;
 }
 
 #section-4 div
 {
-    border:1px solid black;
-    height: 109px;
-    width: 98%;
+    border: 0;
+    height: 40%;
+    width: 70%;
     padding: 2px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
+
+#section-4 div h4
+{
+    color: white;
+    border: 0;
+}
+
+#section-4 div p
+{
+    color: white;
+    border: 0;
+}
+
 
 #section-4 button
 {
-    width: 100px;
+    width: 12%;
+    background-color: rgba(194, 113, 255, 1);
+    color: white;
+    border-radius: 30px;
+    height: 10%;
+    margin-top: 20px;
+    border: 0;
 }
 
 #section-4 div div
 {
-    border: 1px solid black;
-    height: 100px;
+    border: 0;
+    height: 98%;
     width: 20%;
     padding: 2px;
     display: flex;
@@ -436,10 +472,9 @@ main #section-4
 
 main #section-5
 {
-    border: 2px solid black;
+    border: 0;
     padding: 5px;
     height: 700px;
-    margin-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -504,7 +539,6 @@ main #section-5
 footer
 {
     border: 0;
-    margin-top: 10px;
     height: 150px;
     padding: 5px;
     background-color: rgba(7, 22, 41, 1);
