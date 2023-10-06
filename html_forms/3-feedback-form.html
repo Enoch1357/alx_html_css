@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form>
+        <h2>Feedback Form</h2>
+        <div>
+            <label for="name"></label>
+            <input type="text" placeholder="Input your name" required>
+        </div>
+        <div>
+            <label for="email"></label>
+            <input type="email" placeholder="Input your email" required>
+        </div>
+        <fieldset>
+            <legend></legend>
+            <div>
+                <input type="checkbox">
+                <label for="excellent">Excellent</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="good">Good</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="average">Average</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="poor">Poor</label>
+            </div>
+        </fieldset>
+        <input type="file" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]')
+        
+        function atLeastOneBoxIsChecked(checkboxes) {
+            return Array.from(checkboxes).some(
+                checkbox => checkbox.checked
+            );
+        }
+
+        const form = document.querySelector('form')
+        form.addEventListener('submit', event => {
+            event.preventDefault();
+
+            if (!atLeastOneBoxIsChecked(checkboxes)) {
+                alert('At least one option must be checked');
+
+            }
+            return;
+        })
+    </script>
+</body>
+</html>

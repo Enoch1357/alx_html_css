@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <h2>Registration Form</h2>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Type your name" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Type your email" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Set your password" required>
+        </div>
+        <div>
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" placeholder="Retype your password" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        const password = document.getElementById('password'),
+              confirmPassword = document.getElementById('confirm-password');
+        
+        function validatePassword() {
+            if (password.value != confirmPassword.value) {
+                confirmPassword.setCustomValidity("Passwords Don't Match");
+            } else {
+                confirmPassword.setCustomValidity('');
+            }
+            
+        }
+
+        // const form = document.querySelector('form');
+        // form.addEventListener('submit', event => {
+        //     event.preventDefault();
+        //     validatePassword();
+        
+        // })
+
+        password.onchange = validatePassword;
+        confirmPassword.onkeyup = validatePassword;
+    </script>
+</body>
+</html>
